@@ -10,7 +10,7 @@ public class Ch02Ex02_04 {
 		String input = scanner.nextLine();
 	    int num = 45;
 	    String A = scanner.nextLine();
-	    	    int B = 9;
+	    int B = 9;
 	    	    
 	    System.out.printf("55-10=%d%n", num);
 	    System.out.printf("2008-1999=%d%n", B);	   	    			    			    
