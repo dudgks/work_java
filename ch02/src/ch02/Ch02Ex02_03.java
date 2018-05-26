@@ -19,7 +19,7 @@ public class Ch02Ex02_03 {
 	    int num2 = Integer.parseInt(strNum2);
 	    	  	    
 	    // 4. 변수 num1과 num2를 각각 한줄씩 출력
-	    System.out.printf("%d%n", num1);
+	    System.out.printf("%d%n", num);
 	 	System.out.printf("%d%n", num2); 
 	}
 }
