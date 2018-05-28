@@ -5,7 +5,7 @@ public class CastingEx1 {
 		double d = 85.4;
 		int score = (int)d;    //double에서 int로 명시적 형변환이 일어남.
 		
-		
+		 
 		System.out.println("score="+score);
 		System.out.println("d="+d);
 	}
