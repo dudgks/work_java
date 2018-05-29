@@ -1,6 +1,6 @@
 package ch03;
 
-public class OperatorEx3 {
+public class OperatorEx03 {
 	public static void main(String[] args) {
 		int i = 5, j = 5;
 		System.out.println(i++);      // 변수 i 먼저 사용하기 때문에 5출력
