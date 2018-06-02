@@ -6,17 +6,13 @@ public class Ch03Ex01_01 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		int a = 100;
-		int b = 10;		
+		int num1 = Integer.parseInt(scanner.nextLine());
+		int num2 = Integer.parseInt(scanner.nextLine());
 		
-		String a1 = scanner.nextLine();
-		String b1 = scanner.nextLine();
-
-		int a2 = Integer.parseInt(a1);
-		int b2 = Integer.parseInt(b1);
-								
-		System.out.printf("%d", a2 + a);
-		System.out.printf("%2d", b2 % b);
+		int res1 = num1 + 100;
+		int res2 = num2 % 10;
+		
+		System.out.printf("%d %d%n", res1, res2);
 
 
 	}

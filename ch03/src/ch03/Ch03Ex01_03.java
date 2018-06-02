@@ -6,28 +6,14 @@ public class Ch03Ex01_03 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		int a = 10;
-		++a;
+		int num1 = Integer.parseInt(scanner.nextLine());
+		int num2 = Integer.parseInt(scanner.nextLine());
 		
-		int b = 20;
-		--b;
+		int a = num1++; 	// a에는 num1이 1증가하기 전 값이 저장
+		int b = --num2; 	// b에는 num2가 1감소 후 값이 저장
+		int mul = a * b;	// 증가 전 값과 감소 후 값을 곱한 값 저장
 		
-				
-		String a1 = scanner.nextLine();
-		String b1 = scanner.nextLine();
-				
-		int a2 = Integer.parseInt(a1);
-		int b2 = Integer.parseInt(b1);
-		
-		int result = a2 * b;
-		
-		System.out.printf("%d",a, a1);
-		System.out.printf("%3d",b, b1);
-		System.out.printf("%4d", result);
-		
-		
-		
-		
+		System.out.printf("%d %d %d%n", num1, num2, mul);
 	}
 
 }

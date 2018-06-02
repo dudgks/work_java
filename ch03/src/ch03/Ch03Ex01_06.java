@@ -5,17 +5,14 @@ import java.util.Scanner;
 public class Ch03Ex01_06 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		String strNum1 = scanner.nextLine();
-		String strNum2 = scanner.nextLine();
-				
-		int num1 = Integer.parseInt(strNum1);
-		int num2 = Integer.parseInt(strNum2);
 		
-		int a = 2;
-		int b = 0;						
+		int num1 = Integer.parseInt(scanner.nextLine());
+		int num2 = Integer.parseInt(scanner.nextLine());					
 		
-		System.out.printf("%b", 'a' == 'b');
-		System.out.printf("%b", 'b' == 'b');
+		boolean res1 = num1 != 0;
+		boolean res2 = num2 != 0;
+		
+		System.out.printf("%b %b%n", res1 && res2, res1 || res2);
 	}
 
 }
