@@ -7,8 +7,12 @@ public class Ch03Ex04_01 {
 		// 방법2 : 디버깅 도구를 사용
 		int a = 5;
 		a += 10;
-		a = a - 1; // ①
-		System.out.printf("%d%n", a);
+		a = a - 1; // ①									// f5 = 메소드 내부 진입, f6 = 현재 기다리고있는 줄 실행
+		System.out.printf("%d%n", a);					// f8 = 다른 break point로 이동
 	}
 
+	private static void dsbugTset(int b) {
+		System.out.println(b + 10);
+		
+	}
 }
