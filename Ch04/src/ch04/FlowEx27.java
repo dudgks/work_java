@@ -19,7 +19,7 @@ public class FlowEx27 {
 			
 			if(num != 0) {
 				sum += num;			// num이 0이 아니면, sum에 더한다.
-			} else {
+			} else {				
 				flag = false;		// num이 0이면, flag의 값을 false로 변경
 			}
 		}
