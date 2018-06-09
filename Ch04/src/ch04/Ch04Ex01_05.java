@@ -10,13 +10,10 @@ public class Ch04Ex01_05 {
 		String[] numbers = scanner.nextLine().split(" ");
 		double a = Double.parseDouble(numbers[0]);
 		double b = Double.parseDouble(numbers[1]);
-		String[] numbers1 = scanner.nextLine().split(" ");
-		double c = Double.parseDouble(numbers[0]);
-		double d = Double.parseDouble(numbers[1]);
 
 		if(x >= 4.0) { 
 			System.out.println('A');
-		} if (x >= 3.0) {
+		}if (x >= 3.0) {
 			System.out.println('B');		
 		}else {
 			System.out.println('C');
