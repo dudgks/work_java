@@ -18,7 +18,7 @@ public class Ch04Ex02_14 {
 			     System.out.print(j+" * "+ i +" = "+ (i * j) +"\t");
 			    }
 			    
-			   }else if(num2>num1){
+			   } else if(num2>num1) {
 			    for (int j=num2; j >= num1; j--) {
 			     System.out.print(j+" * "+ i +" = "+ (i * j) +"\t");
 			    }
