@@ -10,11 +10,12 @@ public class Ch04Ex01_13 {
 		int n = scanner.nextInt();		
 		String result ; 
 		switch (n) {
-		case 1:result ="dog";break;
-		case 2:result ="cat";break;
-		case 3:result = "chick";break;
-		default:result = "I don't know.";	
+		case 1:result ="dog"; 	
+		case 2:result ="cat"; 
+		case 3:result = "chick"; 
+		default:result = "I don't know.";
 		System.out.println();
+		
 		}
 	}
 }
