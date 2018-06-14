@@ -4,39 +4,45 @@ import java.util.Scanner;
 
 public class Ch04Ex02_06 {
 	public static void main(String[] args) {
-
-		int menu = 0;
-		int num = 0;
-
-		Scanner scanner = new Scanner(System.in); 
-
-		while(true) {
+		// 1. 나라 목록을 출력한다.
+		while (true) {
 			System.out.println(" (1) Korea");
 			System.out.println(" (2) USA");
 			System.out.println(" (3) Japan");
 			System.out.println(" (4) China");
-			System.out.println("원하는 메뉴(1~4)를 선택하세요.(종료:0)>");
+			System.out.println("number?");
 
-			String tmp = scanner.nextLine(); // 화면에서 입력받은 내용을 tmp에 저장
-			menu = Integer.parseInt(tmp);	 // 입력받은 문자열(tmp)을 숫자로 변환
+			// 2. 나라에 대한 번호를 입력받는다.
+			Scanner scanner = new Scanner(System.in); 
+			int num = Integer.parseInt(scanner.nextLine());
 
-			if(menu == 0) {
-				System.out.println("프로그램을 종료합니다.");
+			// 4. 특정 조건을 만족할 경우 참 거짓을 저장하는 flag 변수
+			boolean flag = false;
+			
+			// 3. 입력받은 번호를 이용하여 해당 나라의 수도를 출력
+			switch (num) {
+			case 1: 
+				System.out.println("Seoul");
 				break;
-			} else if (1 == menu) {
-				System.out.println("Seoul. (종료는 0)");
+			case 2:
+				System.out.println("Washington");
+				break;
+			case 3 :
+				System.out.println("Tokyo");
+				break;
+			case 4:
+				System.out.println("Beijing");
+				break;
 
-			}else if (2 == menu) {
-				System.out.println("Washington. (종료는 0)");
-
-			}else if (3 == menu) {
-				System.out.println("Tokyo. (종료는 0)");
-
-			}else if (4 == menu) {
-				System.out.println("Beijing. (종료는 0)");
-				continue;
-
-			}	System.out.println("선택하신 메뉴는 " + menu + "번입니다.");
+			default :
+				System.out.println("none");
+				flag = true;
+			}	
+			
+			// 5. 특정조건(flag 값이 true일때)에 while문 반복 끝내기
+			if (flag == true) {
+				break;
+			}
 
 		}
 	}
