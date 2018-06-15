@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ch04Ex02_18 {
 	public static void main(String[] args) {
-
+		// 1. 자연수 하나 입력받기
 		Scanner scanner = new Scanner(System.in);
 		int num = Integer.parseInt(scanner.nextLine());
 
