@@ -14,22 +14,16 @@ public class Ch04Ex02_18 {
 			}
 			System.out.println();
 		} 
-
 		for (int a = 1; a < num; a++) {
 			for (int b = 0; b < num; b++) {
 				if (b >= a) {
 					System.out.print("#");
-
 				}
 				else {
 					System.out.print(" ");
 				} 
-
 			}
 			System.out.println();
-
 		}
-
 	}
-
 }
