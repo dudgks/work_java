@@ -7,7 +7,7 @@ public class Ch05Ex02_04 {
 		// 초기에는 2칸짜리 배열을 우선 생성한다/
 		int[] stream = new int[2];
 
-		// 입력을 받은 값을 저장할 인덱스번호 ㅑ
+		// 입력을 받은 값을 저장할 인덱스번호 i
 		int i = 0;
 
 		// 무한히 반복한다.
@@ -23,7 +23,7 @@ public class Ch05Ex02_04 {
 				// stream 배열에 담겨 있는 모든 값들을 tmp 배열로 복사한다.
 				System.arraycopy(stream, 0, tmp, 0, stream.length);
 				// 우리는 stream 배열을 사용할 것이므로 tmp배열을 stream배열에 대입한다.
-				//(tmp)배열의 주소값을 stream 배열의 주소값으로 설정한다.
+				// tmp배열의 주소값을 stream 배열의 주소값으로 설정한다.
 				// 자바 메모리 구조 그림으로 그려서 복습 권장드리니다.
 				stream = tmp;
 			}
