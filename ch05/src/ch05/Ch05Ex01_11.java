@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ch05Ex01_11 {
 	public static void main(String[] args) {
-		// 1. 십의 자리 숫자의 개수를 저장하는 배열 생성
+		// 1. 십의 자리 숫자의  개수를 저장하는 배열 생성
 		int[] counter = new int[10];	// 십의 자리수는 0~9까지이므로
 
 		// 무한 반복
